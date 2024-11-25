@@ -21,7 +21,7 @@ class Program
 
         while (outputList.Count < rowCount + 1) // +1 to include the final "123456"
         {
-            string previousSequence = outputList;//ssad
+            string previousSequence = outputList;//ssada
             string nextSequence = GenerateNextSequence(previousSequence, seenSequences);
             outputList.Add(nextSequence);
             seenSequences.Add(nextSequence);
